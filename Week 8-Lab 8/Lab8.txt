@@ -1,0 +1,62 @@
+Tutorial Exercise (Week 8 - Lab 8):
+Q3
+	START Q3
+		START MAINLOGIC
+			SET choice = 0, result = 0, x = 0, y = 0 AS INTEGER
+			SET status = True AS BOOLEAN
+			
+			WHILE (status == True) DO
+				choice = choice()
+				DISPLAY ("Enter first number: ")
+				INPUT INTO x
+				DISPLAY ("Enter the second number: ")
+				INPUT INTO y
+				IF (choice == 1) THEN
+					result = add(x, y)
+				
+				ELIF (choice == 2) THEN
+					result = subtract(x, y)
+					
+				ELIF (choice == 3) THEN 
+					result = multiply(x, y)
+					
+				ELIF (choice == 4) THEN
+					result = divide(x, y)
+				
+				ELSE THEN
+					status = False
+					
+			END WHILE
+			
+			DISPLAY (f"The product of {x} and {y} is {result}.")
+		END MAINLOGIC
+		
+		DEFINE choice()
+			SET choice = 0 AS INTEGER
+			DISPLAY ("Calculator Program\n\t1. ADD\n\t2. SUBTRACT\n\t3. MULTIPLY\n\t4. DIVIDE")
+			DISPLAY ("Choose the operation from the given options: ")
+			INPUT INTO choice
+			RETURN choice
+		END DEFINE
+		
+		DEFINE add(x, y)
+			result = x + y
+			RETURN result
+		END DEFINE
+		
+		DEFINE subtract(x, y)
+			result = x - y
+			RETURN result
+		END DEFINE
+		
+		DEFINE multiply(x, y)
+			result = x * y
+			RETURN result
+		END DEFINE
+		
+		DEFINE divide(x, y)
+			result = x / y
+			RETURN result
+		END DEFINE
+		
+	

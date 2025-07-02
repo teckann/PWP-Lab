@@ -1,0 +1,31 @@
+Tutorial Exercise (Week 3 - Lab 3):
+Q1
+	START Q1
+		SET num1 = 0, num2 = 0, sum = 0 AS INTEGER
+		DISPLAY ("Enter first number: ")
+		INPUT INTO num1
+		DISPLAY ("Enter second number: ")
+		INPUT INTO num2
+		sum = num1 + num2
+		DISPLAY ("The sum of the two given numbers is: " + sum)
+	END Q1
+	
+Q2
+	START Q2
+		SET num1 = 0, num2 = 0, num3 = 0 AS INTEGER
+		SET num4 = 0.0, num5 = 0.0, average = 0.0 AS FLOAT
+		DISPLAY ("Enter first number (integer): ")
+		INPUT INTO num1
+		DISPLAY ("Enter second number (integer): ")
+		INPUT INTO num2
+		DISPLAY ("Enter third number (integer): ")
+		INPUT INTO num3
+		DISPLAY ("Enter fourth number (float): ")
+		INPUT INTO num4
+		DISPLAY ("Enter fifth number (float): ")
+		INPUT INTO num5
+		average = (num1 + num2 + num3 + num4 + num5) / 5
+		DISPLAY ("The average of the two given numbers is: " + average)
+	END Q2
+	
+Q3

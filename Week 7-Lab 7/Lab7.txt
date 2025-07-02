@@ -1,0 +1,72 @@
+Tutorial Exercise (Week 7 - Lab 7):
+Q1
+	START Q1
+		SET i = 0 AS INTEGER
+		FOR (i=1, i<150, i+=1) THEN
+			IF (i > 100) THEN
+				break;
+			ENDIF
+			DISPLAY (i, end=",")
+		END FOR
+	END Q1
+
+Q2
+	START Q2
+		SET i = 0, result = 0 AS INTEGER
+		FOR (i=1, i<10, i+=1) THEN
+			result = i * i * i
+			DISPLAY ("cube of number", i, "=", i, "x", i, "x", i, "=", result)
+		ENDFOR
+	END Q2
+	
+Q3
+	START Q3
+		SET output = "& " AS STRING
+		SET i = 0, row = 0 AS INTEGER
+		FOR (i=1, i<20, i+=1) THEN
+			row = 20
+			IF (i <= 10) THEN
+				DISPLAY (output * i)
+			
+			ELSE THEN
+				row -= i
+				DISPLAY (output * row)
+			ENDIF
+		ENDFOR
+	END Q3
+	
+Q4
+	START Q4
+		SET python, DBase, total_quantity, python_origin_price, DBase_origin_price, total_price AS INTEGER
+		SET discount, after_discount_price AS FLOAT
+		DISPLAY ("Python: RM 225")
+		DISPLAY ("DBase: RM 320")
+		DISPLAY ("Quantity of Python: ")
+		INPUT INTO python
+		DISPLAY ("Quantity of DBase: ")
+		INPUT INTO DBase
+		
+		python_origin_price = 225 * python
+		DBase_origin_price = 320 * DBase
+		total_price = python_origin_price + DBase_origin_price
+		
+		IF (total_quantity <= 3) THEN
+			discount = 0.05
+			
+		ELIF (total_quantity <= 10) THEN
+			discount = 0.10
+			
+		ELSE THEN
+			discount = 0.20
+			
+		ENDIF
+		
+		DISPLAY ("Receipt")
+		DISPLAY ("----------------------")
+		after_discount_price = total_price - (total_price * discount)
+		DISPLAY ("Quantity of Python: " + python)
+		DISPLAY ("Quantity of DBase: " + DBase)
+		DISPLAY ("Total Price: RM " + total_price)
+		DISPLAY ("Discount: " + (discount * 100) + "%")
+		DISPLAY ("Amount Should Pay: RM " + after_discount_price)
+	END Q4

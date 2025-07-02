@@ -1,0 +1,55 @@
+Basic OPERATION that a Computer can do:
+	1. INPUT {READ / ACCEPT / GET}
+	2. OUTPUT {PRINT / DISPLAY}
+	3. Assignment / Storage of Data in Variable {SET}
+	4. Calculation (Additional, Subtraction, Multiplication, Division, etc..)
+	5. Comparision (IF Statement --> Boolean)
+	6. Repetetion / Loop Iteration (For Loop, While Loop)
+	
+	Sequence Statement / Operation:
+	- Normal Operation (1-4)
+
+
+Tutorial Exercise (Week 2 - Lab 2):
+Q1
+	START Q1
+		DISPLAY ("Hello Good Day")
+	END Q1
+
+Q2
+	START Q2
+		SET num AS INT
+		num = 10
+		DISPLAY (num)
+	END Q2
+	
+Q3
+	START Q3
+		SET num AS INT
+		DISPLAY ("Please enter your number: ")
+		INPUT INTO num
+		DISPLAY (num)
+	END Q3
+	
+Q4
+	START Q4	
+		DISPLAY ("Welcome to a student registration system \n \t 1. Register \n \t 2. Update \n \t 3. Delete \n \t 4. Exit")
+	END Q4
+	
+Q5
+	START Q5
+		# because there not arithmatic, so just use string
+		SET name, tp_number, mark, grade, cgpa AS STRING
+		DISPLAY ("Please enter your name: ")
+		INPUT INTO name
+		DISPLAY ("Please enter your TP Number: ")
+		INPUT INTO tp_number
+		DISPLAY ("Please enter your mark: ")
+		INPUT INTO mark
+		DISPLAY ("Please enter your grade: ")
+		INPUT INTO grade
+		DISPLAY ("Please enter your CGPA: ")
+		INPUT INTO cgpa
+		DISPLAY ("")
+		DISPLAY ("Name: " + name + "\nTP Number: "+ tp_number + "\nMarks: " + mark + "\nGrade: " + grade + "\nCGPA: " + cgpa)
+	END Q5

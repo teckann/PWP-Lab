@@ -1,0 +1,136 @@
+Tutorial Exercise (Week 4 - Lab 4):
+Q1
+	START Q1
+		SET max_tem, min_tem AS INTEGER
+			average AS FLOAT
+		DISPLAY ("Maximum Temperature Reading: ")
+		INPUT INTO max_tem
+		DISPLAY ("Minimum Temperature Reading: ")
+		INPUT INTO min_tem
+		average = round((max_tem + min_tem) / 2)
+		DISPLAY ("Average Temperature: ", average)
+	END Q1
+
+Q2
+	START Q2
+		SET bmi AS FLOAT
+		DISPLAY ("Please enter your BMI: ")
+		INPUT INTO bmi
+		
+		IF (bmi < 18.5) THEN
+			DISPLAY ("Underweight")
+			
+		ELIF (18.5 < bmi < 20.0) THEN
+			DISPLAY ("Normal")
+			
+		ELIF (20.0 < bmi < 30.0) THEN
+			DISPLAY ("Overweight")
+			
+		ELSE
+			DISPLAY ("Obese")
+			
+		ENDIF
+	END Q2
+	
+Q3
+	START Q3
+		SET status = 1
+		SET name, tax_status AS STRING
+			purchase_amount, total_amount_due AS FLOAT
+			tax_code AS INTEGER
+		DISPLAY ("Please enter your name: ")
+		INPUT INTO name
+		DISPLAY ("Please enter your purchase amount: ")
+		INPUT INTO purchase_amount
+		DISPLAY ("0 : Tax Exempted (0%)")
+		DISPLAY ("1 : Good Tax Only (6%)")
+		DISPLAY ("2 : Good Tax and Service (16%)")
+		DISPLAY ("Please enter your tax code: ")
+		INPUT INTO tax_code
+		
+		IF (tax_code == 0) THEN
+			tax_status = "Tax Exempted (0%)"
+			total_amount_due = round((purchase_amount * 0) + purchase_amount,2)
+		
+		ELIF (tax_code == 1) THEN
+			tax_status = "Good Tax Only (6%)"
+			total_amount_due = round((purchase_amount * 0.06) + purchase_amount,2)
+			
+		ELIF (tax_code == 2) THEN
+			tax_status = "Good Tax and Service (16%)"
+			total_amount_due = round((purchase_amount * 0.16) + purchase_amount, 2)
+		
+		ELSE 
+			status = 0
+			
+		ENDIF
+		
+		IF (status == 1) THEN 
+			DISPLAY ("Customer's Name: " + name)
+			DISPLAY ("Purchase Amount: RM" + purchase_amount)
+			DISPLAY ("Tax Imposed: " + tax_status)
+			DISPLAY ("Total Amount Due: RM" + total_amount_due)
+			
+		ELSE
+			DISPLAY ("Please select the correct tax code!")
+			
+		ENDIF
+	END	Q3
+	
+Q4
+	START Q4
+		SET num1, num2, diff AS INTEGER
+		DISPLAY ("First number: ")
+		INPUT INTO num1
+		DISPLAY ("Second number: ")
+		INPUT INTO num2
+		
+		IF (num1 > num2) THEN
+			diff = num1 - num2
+			DISPLAY ("The largest number: ", num1)
+			DISPLAY ("Difference between these two numbers: " + diff)
+			
+		ELIF (num2 > num1) THEN
+			diff = num2 - num1
+			DISPLAY ("The largest number: ", num2)
+			DISPLAY ("Difference between these two numbers: " + diff)
+			
+		ELSE
+			DISPLAY ("Please enter different number value!")
+			
+		ENDIF
+	END Q4
+	
+Q5
+	START Q5
+		SET num1, num2, add, subtract, multiply, divide AS FLOAT
+			status AS INTEGER
+		DISPLAY ("First number: ")
+		INPUT INTO num1
+		DISPLAY ("Second number: ")
+		INPUT INTO num2
+		DISPLAY ("Calculator: \n\t 1. Add \n\t 2. Subtract \n\t 3. Multiply \n\t 4. Divide")
+		DISPLAY ("Please select one operation: ")
+		INPUT INTO status
+		
+		IF (status == 1) THEN
+			add = num1 + num2
+			DISPLAY ("Answer: " + add)
+			
+		ELIF (status == 2) THEN
+			subtract = num1 - num2
+			DISPLAY ("Answer: " + subtract)
+			
+		ELIF (status == 3) THEN
+			multiply = num1 * num2
+			DISPLAY ("Answer: " + multiply)
+			
+		ELIF (status == 4) THEN
+			divide = num1 / num2
+			DISPLAY ("Answer: " + divide)
+			
+		ELSE
+			DISPLAY ("Please select the correct operation!")
+			
+		ENDIF
+	END Q5

@@ -1,0 +1,92 @@
+Tutorial Exercise (Week 6 - Lab 6):
+Q1
+	START Q1
+		SET name AS STRING
+		SET	mark AS INTEGER
+		DISPLAY ("Please enter your name: ")
+		INPUT INTO name
+		DISPLAY ("Please enter your marks: ")
+		INPUT INTO mark
+		
+		IF (mark >= 50) THEN
+			DISPLAY (name + ", you have passed the module.")
+			
+		ELSE
+			DISPLAY (name + ", you have failed the module.")
+			
+		ENDIF
+	END Q1
+	
+Q2
+	START Q2
+		SET	mark = 0, valid_status = 1 AS INTEGER
+		SET	grade = "", mark_status = "Pass" AS STRING
+		DISPLAY ("Enter your marks: ")
+		INPUT INTO mark
+		
+		IF (0 <= mark <= 49) THEN
+			grade = "F"
+			mark_status = "Fail"
+			
+		ELIF (50 <= mark <= 59) THEN
+			grade = "D"
+			
+		ELIF (60 <= mark <= 69) THEN
+			grade = "C"
+			
+		ELIF (70 <= mark <= 79) THEN
+			grade = "B"
+			
+		ELIF (80 <= mark <= 100) THEN
+			grade = "A"
+			
+		ELSE:
+			valid_status = 0
+			
+		ENDIF
+		
+		IF (valid_status == 1) THEN
+			DISPLAY ("Your grade is: " + grade)
+			DISPLAY ("Your status is: " + mark_status)
+			
+		ELIF (valid_status == 0) THEN
+			DISPLAY ("Invalid Entry")
+			
+		ENDIF
+	END Q2
+	
+Q3
+	START Q3
+		SET i = 1
+		WHILE (i <= 20) THEN
+			DISPLAY (i, end=",")
+			i += 1
+		ENDWHILE
+	END Q3
+	
+Q4
+	START Q4
+		SET i = 0
+		WHILE (i <= 38) THEN
+			DISPLAY (i, end=",")
+			i += 2
+		ENDWHILE
+	END Q4
+
+Q5
+	START Q5
+		SET i = 0, result = 0 AS INTEGER
+		WHILE (i <= 9) THEN
+			i += 1
+			result = 7 * i
+			DISPLAY ("7 x " + i + "=" + result)
+		ENDWHILE
+	END Q5
+	
+	START Q5
+		SET i = 0, result = 0 AS INTEGER
+		FOR ( i=1, i<11, i+=1) THEN
+			result = 7 * i
+			DISPLAY ("7 x " + i + "=" + result)
+		ENDFOR
+	END Q5

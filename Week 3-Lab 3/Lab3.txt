@@ -1,0 +1,74 @@
+Tutorial Exercise (Week 3 - Lab 3):
+Q1
+	START Q1
+		SET num1, num2, sum AS INTEGER
+		DISPLAY ("Enter first number: ")
+		INPUT INTO num1
+		DISPLAY ("Enter second number: ")
+		INPUT INTO num2
+		sum = num1 + num2
+		DISPLAY ("The sum of the two given numbers is: " + sum)
+	END Q1
+
+Q2
+	START Q2
+		SET num1, num2, num3, num4, num5, average AS FLOAT
+		DISPLAY ("Enter first number: ")
+		INPUT INTO num1
+		DISPLAY ("Enter second number: ")
+		INPUT INTO num2
+		DISPLAY ("Enter third number: ")
+		INPUT INTO num3
+		DISPLAY ("Enter fourth number: ")
+		INPUT INTO num4
+		DISPLAY ("Enter fifth number: ")
+		INPUT INTO num5
+		average = (num1 + num2 + num3 + num4 + num5) / 5
+		DISPLAY ("The average of the two given numbers is: " + average)
+	END Q2
+	
+Q3
+	START Q3
+		IMPORT MATH
+		SET radius, area, circumference AS FLOAT
+		SET pai = math.pi
+		DISPLAY ("Enter radius value: ")
+		INPUT INTO radius
+		area = pai * (radius ** 2)
+		circumference = 2 * pai * radius
+		DISPLAY ("The area value is: " + area)
+		DISPLAY ("The circumference value is: " + circumference)
+	END Q3
+
+Q4
+	START Q4
+		SET sub1, sub2, sub3, sub4, sub5, percentage AS FLOAT
+			total AS INTEGER
+		DISPLAY ("Enter marks of subject 1: ")
+		INPUT INTO sub1
+		DISPLAY ("Enter marks of subject 2: ")
+		INPUT INTO sub2
+		DISPLAY ("Enter marks of subject 3: ")
+		INPUT INTO sub3
+		DISPLAY ("Enter marks of subject 4: ")
+		INPUT INTO sub4
+		DISPLAY ("Enter marks of subject 5: ")
+		INPUT INTO sub5
+		total = sub1 + sub2 + sub3 + sub4 + sub5
+		percentage = (total / (5 * 100)) * 100
+		DISPLAY ("The total marks is: ", total)
+		DISPLAY ("The overall percentage is: ", percentage, "%")
+	END Q4
+	
+Q5
+	START Q5
+		SET Basic_pay, Grade_pay, DA, HRA, salary AS FLOAT
+		SET TA = 200
+		DISPLAY ("Basic Pay: RM ")
+		INPUT INTO Basic_pay
+		Grade_pay = Basic_pay * 2
+		DA = Basic_pay * 0.70
+		HRA = Basic_pay * 0.20
+		salary = Grade_pay + DA + TA + HRA
+		DISPLAY ("Salary : RM ", salary)
+	END Q5

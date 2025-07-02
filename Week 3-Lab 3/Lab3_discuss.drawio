@@ -1,0 +1,202 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" version="26.0.10">
+  <diagram id="f0yZC3nXAZoHuIyKN0pP" name="Page-1">
+    <mxGraphModel dx="553" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="STdVneNFGiQCQjjw0oRL-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="STdVneNFGiQCQjjw0oRL-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="217.49" y="-210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-2" value="START Q1" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="172.49" y="-290" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="STdVneNFGiQCQjjw0oRL-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="217.49" y="-160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-4" value="Question 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=5;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="163.75" y="-340" width="107.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="STdVneNFGiQCQjjw0oRL-6" target="STdVneNFGiQCQjjw0oRL-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-6" value="&lt;div&gt;DISPLAY (&quot;Enter first number: &quot;)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;INPUT INTO num1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DISPLAY (&quot;Enter second number: &quot;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;INPUT INTO num2&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="59.370000000000005" y="-120" width="316.25" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-7" value="END Q1" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="172.5" y="170" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-8" value="&lt;div&gt;CREATE INTEGER num1 = 0, num2 = 0, sum =0&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="131.24" y="-210" width="172.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="STdVneNFGiQCQjjw0oRL-9" target="STdVneNFGiQCQjjw0oRL-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-9" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;sum = num1 + num2&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="131.24" width="172.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="STdVneNFGiQCQjjw0oRL-10" target="STdVneNFGiQCQjjw0oRL-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-10" value="DISPLAY (&quot;The sum of the two given numbers is: &quot; + sum)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="28.58" y="80" width="377.82" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="STdVneNFGiQCQjjw0oRL-18" target="STdVneNFGiQCQjjw0oRL-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-18" value="START Q2" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="598.74" y="-290" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-19" value="Question 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=5;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="590" y="-340" width="107.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="STdVneNFGiQCQjjw0oRL-20" target="STdVneNFGiQCQjjw0oRL-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-20" value="&lt;div&gt;CREATE FLOAT num1 = 0, num2 = 0, num3 = 0, num4 = 0, num5 = 0, average = 0&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="539.99" y="-210" width="207.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="STdVneNFGiQCQjjw0oRL-21" target="STdVneNFGiQCQjjw0oRL-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-21" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DISPLAY (&quot;Enter first number: &quot;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;INPUT INTO num1&lt;/div&gt;&lt;div&gt;DISPLAY (&quot;Enter second number: &quot;)&lt;/div&gt;&lt;div&gt;INPUT INTO num2&lt;/div&gt;&lt;div&gt;DISPLAY (&quot;Enter third number: &quot;)&lt;/div&gt;&lt;div&gt;INPUT INTO num3&lt;/div&gt;&lt;div&gt;DISPLAY (&quot;Enter fourth number: &quot;)&lt;/div&gt;&lt;div&gt;INPUT INTO num4&lt;/div&gt;&lt;div&gt;DISPLAY (&quot;Enter fifth number: &quot;)&lt;/div&gt;&lt;div&gt;INPUT INTO num5&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=30;" parent="1" vertex="1">
+          <mxGeometry x="482.8" y="-120" width="321.88" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="STdVneNFGiQCQjjw0oRL-24" target="STdVneNFGiQCQjjw0oRL-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-24" value="&lt;div&gt;average = (num1 + num2 + num3 + num4 + num5) / 5&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="492.49" y="80" width="302.51" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="STdVneNFGiQCQjjw0oRL-25" target="STdVneNFGiQCQjjw0oRL-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-25" value="DISPLAY (&quot;The average of the two given numbers is: &quot; + average)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="471.55" y="160" width="344.38" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-26" value="END Q2" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="598.74" y="250" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="STdVneNFGiQCQjjw0oRL-30" target="STdVneNFGiQCQjjw0oRL-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-30" value="START Q3" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1048.74" y="-290" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-31" value="Question 3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=5;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="-340" width="107.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="STdVneNFGiQCQjjw0oRL-32" target="STdVneNFGiQCQjjw0oRL-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-32" value="&lt;div&gt;IMPORT MATH&lt;/div&gt;&lt;div&gt;SET radius AS FLOAT&lt;/div&gt;&lt;div&gt;SET pai = math.pi&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1017.5" y="-210" width="152.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="STdVneNFGiQCQjjw0oRL-34" target="STdVneNFGiQCQjjw0oRL-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-34" value="&lt;div&gt;DISPLAY (&quot;Enter radius value: &quot;)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;INPUT INTO radius&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=19.860000000000127;" parent="1" vertex="1">
+          <mxGeometry x="970.14" y="-110" width="247.2" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="STdVneNFGiQCQjjw0oRL-35" target="STdVneNFGiQCQjjw0oRL-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-35" value="&lt;div&gt;SET&amp;nbsp;area, circumference&lt;/div&gt;&lt;div&gt;area = pai * (radius ** 2)&lt;/div&gt;&lt;div&gt;circumference = 2 * pai * radius&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="992.49" y="-30" width="202.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="STdVneNFGiQCQjjw0oRL-38" target="STdVneNFGiQCQjjw0oRL-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-38" value="DISPLAY (&quot;The area value is: &quot;, area)&lt;div&gt;DISPLAY (&quot;The circumference value is: &quot;, circumference)&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=19.860000000000127;" parent="1" vertex="1">
+          <mxGeometry x="903.81" y="70" width="379.86" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-39" value="END Q3" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1048.74" y="150" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="STdVneNFGiQCQjjw0oRL-42" target="STdVneNFGiQCQjjw0oRL-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-42" value="START Q4" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1488.74" y="-290" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-43" value="Question 4" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=5;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="-340" width="107.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="STdVneNFGiQCQjjw0oRL-44" target="STdVneNFGiQCQjjw0oRL-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-44" value="&lt;div&gt;SET sub1, sub2, sub3, sub4, sub5 AS FLOAT&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1447.49" y="-210" width="172.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="STdVneNFGiQCQjjw0oRL-47" target="STdVneNFGiQCQjjw0oRL-50" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-47" value="&lt;span style=&quot;text-align: left;&quot;&gt;DISPLAY (&quot;Enter marks of subject 1: &quot;)&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;INPUT INTO sub1&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;DISPLAY (&quot;Enter marks of subject 2: &quot;)&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;INPUT INTO sub2&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;DISPLAY (&quot;Enter marks of subject 3: &quot;)&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;INPUT INTO sub3&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;DISPLAY (&quot;Enter marks of subject 4: &quot;)&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;INPUT INTO sub4&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;DISPLAY (&quot;Enter marks of subject 5: &quot;)&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;INPUT INTO sub5&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=30;" parent="1" vertex="1">
+          <mxGeometry x="1372.81" y="-130" width="321.88" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="STdVneNFGiQCQjjw0oRL-50" target="STdVneNFGiQCQjjw0oRL-52" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-50" value="&lt;span style=&quot;text-align: left;&quot;&gt;SET total, percentage&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;total = sub1 + sub2 + sub3 + sub4 + sub5&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;percentage = (total / (5 * 100)) * 100&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1409.98" y="60" width="247.51" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="STdVneNFGiQCQjjw0oRL-52" target="STdVneNFGiQCQjjw0oRL-54" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-52" value="&lt;div&gt;DISPLAY (&quot;The total marks is: &quot;, total)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DISPLAY (&quot;The overall percentage is: &quot;, percentage, &quot;%&quot;)&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=19.860000000000127;" parent="1" vertex="1">
+          <mxGeometry x="1343.8" y="160" width="379.86" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="STdVneNFGiQCQjjw0oRL-54" value="END Q4" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1488.75" y="250" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WGK6TKbxTxdjGZCeSTnP-6" value="START Q5" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1918.74" y="-290" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WGK6TKbxTxdjGZCeSTnP-7" value="Question 5" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=5;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1910" y="-340" width="107.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WGK6TKbxTxdjGZCeSTnP-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WGK6TKbxTxdjGZCeSTnP-8" target="WGK6TKbxTxdjGZCeSTnP-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WGK6TKbxTxdjGZCeSTnP-8" value="&lt;div&gt;SET Basic_pay AS FLOAT&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1877.5" y="-210" width="172.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WGK6TKbxTxdjGZCeSTnP-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="WGK6TKbxTxdjGZCeSTnP-10" target="WGK6TKbxTxdjGZCeSTnP-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WGK6TKbxTxdjGZCeSTnP-10" value="&lt;div&gt;DISPLAY (&quot;Basic Pay: RM&quot;)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;INPUT INTO Basic_pay&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=19.860000000000127;" parent="1" vertex="1">
+          <mxGeometry x="1840.15" y="-120" width="247.2" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WGK6TKbxTxdjGZCeSTnP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WGK6TKbxTxdjGZCeSTnP-6" target="WGK6TKbxTxdjGZCeSTnP-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1964" y="-220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WGK6TKbxTxdjGZCeSTnP-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WGK6TKbxTxdjGZCeSTnP-14" target="WGK6TKbxTxdjGZCeSTnP-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WGK6TKbxTxdjGZCeSTnP-14" value="&lt;span style=&quot;text-align: left;&quot;&gt;SET Grade_pay, DA, TA, HRA&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Grade_pay = Basic_pay * 2&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;DA = Basic_pay * 0.70&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;TA = 200&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;HRA = Basic_pay * 0.20&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1858.74" y="-30" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WGK6TKbxTxdjGZCeSTnP-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WGK6TKbxTxdjGZCeSTnP-17" target="WGK6TKbxTxdjGZCeSTnP-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WGK6TKbxTxdjGZCeSTnP-17" value="&lt;span style=&quot;text-align: left;&quot;&gt;SET salary&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;salary = Grade_pay + DA + TA + HRA&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1839.84" y="110" width="247.51" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WGK6TKbxTxdjGZCeSTnP-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WGK6TKbxTxdjGZCeSTnP-20" target="WGK6TKbxTxdjGZCeSTnP-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WGK6TKbxTxdjGZCeSTnP-20" value="&lt;span style=&quot;text-align: left;&quot;&gt;DISPLAY (&quot;Salary : RM&quot;, salary)&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=19.860000000000127;" parent="1" vertex="1">
+          <mxGeometry x="1820.6599999999999" y="210" width="286.18" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WGK6TKbxTxdjGZCeSTnP-21" value="END Q5" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1918.6" y="300" width="90" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
